@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Javascript-Compilers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-Compilers?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-Compilers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-Compilers?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Javascript-Compilers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Javascript-Compilers?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Javascript-Compilers/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -74,89 +74,89 @@ The global web development and Jamstack application deployment market is estimat
 
 ## 📦 Open-Source Compilers & Bundlers
 
-All open-source tools below are ranked in descending order by community GitHub Stars.
+All open-source tools below are ranked in descending order by community GitHub_Stars.
 
-### 1. [TypeScript Compiler (tsc)](https://github.com/microsoft/TypeScript) [![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&color=white)](https://github.com/microsoft/TypeScript/stargazers)
+### 1. [TypeScript Compiler (tsc)](https://github.com/microsoft/TypeScript) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/TypeScript?style=social&color=white)](https://github.com/microsoft/TypeScript/stargazers)
 * **Category**: Static Type Checker & Native Compiler
 * **Tech**: C++ / Go Native Port / JavaScript
 * **Summary**: The industry type-checking foundation. While Babel, SWC, and esbuild strip types without verifying semantic correctness, `tsc` validates types and creates definitions (`.d.ts`). Best used for type validation across all environments.
 
-### 2. [Vite](https://github.com/vitejs/vite) [![GitHub stars](https://img.shields.io/github/stars/vitejs/vite?style=social&color=white)](https://github.com/vitejs/vite/stargazers)
+### 2. [Vite](https://github.com/vitejs/vite) [![GitHub_Stars](https://img.shields.io/github/stars/vitejs/vite?style=social&color=white)](https://github.com/vitejs/vite/stargazers)
 * **Category**: Modern Frontend Build Tool & Dev Server
 * **Tech**: Node.js / esbuild / Rolldown / Rollup
 * **Summary**: Next-generation frontend tooling providing lightning-fast Hot Module Replacement (HMR) powered by native ESM. Orchestrates fast pre-bundling with esbuild and production optimization via Rollup / Rolldown.
 
-### 3. [Webpack](https://github.com/webpack/webpack) [![GitHub stars](https://img.shields.io/github/stars/webpack/webpack?style=social&color=white)](https://github.com/webpack/webpack/stargazers)
+### 3. [Webpack](https://github.com/webpack/webpack) [![GitHub_Stars](https://img.shields.io/github/stars/webpack/webpack?style=social&color=white)](https://github.com/webpack/webpack/stargazers)
 * **Category**: Enterprise Module Bundler & Asset Pipeline
 * **Tech**: JavaScript / Node.js
 * **Summary**: The battle-tested cornerstone of modern web applications. Excels in complex enterprise environments requiring extensive loader chains, custom AST plugins, code splitting, and Module Federation.
 
-### 4. [Babel](https://github.com/babel/babel) [![GitHub stars](https://img.shields.io/github/stars/babel/babel?style=social&color=white)](https://github.com/babel/babel/stargazers)
+### 4. [Babel](https://github.com/babel/babel) [![GitHub_Stars](https://img.shields.io/github/stars/babel/babel?style=social&color=white)](https://github.com/babel/babel/stargazers)
 * **Category**: JavaScript Transpiler & AST Transformer
 * **Tech**: JavaScript
 * **Summary**: The gold standard for syntactic transformation and custom AST plugins. Babel 8 is ESM-only and defaults to modern ES specifications. Ideal for legacy polyfilling and experimental syntax transforms.
 
-### 5. [Parcel](https://github.com/parcel-bundler/parcel) [![GitHub stars](https://img.shields.io/github/stars/parcel-bundler/parcel?style=social&color=white)](https://github.com/parcel-bundler/parcel/stargazers)
+### 5. [Parcel](https://github.com/parcel-bundler/parcel) [![GitHub_Stars](https://img.shields.io/github/stars/parcel-bundler/parcel?style=social&color=white)](https://github.com/parcel-bundler/parcel/stargazers)
 * **Category**: Zero-Configuration Application Bundler
 * **Tech**: Rust (SWC core) / JavaScript
 * **Summary**: Zero-config compilation combining out-of-the-box asset bundling (HTML, CSS, JS, images) with native SWC transforms for rapid prototyping and micro-apps.
 
-### 6. [esbuild](https://github.com/evanw/esbuild) [![GitHub stars](https://img.shields.io/github/stars/evanw/esbuild?style=social&color=white)](https://github.com/evanw/esbuild/stargazers)
+### 6. [esbuild](https://github.com/evanw/esbuild) [![GitHub_Stars](https://img.shields.io/github/stars/evanw/esbuild?style=social&color=white)](https://github.com/evanw/esbuild/stargazers)
 * **Category**: Ultra-Fast Go-Based Bundler & Minifier
 * **Tech**: Go
 * **Summary**: Ultra-fast build engine compiling 10x-100x faster than traditional JS-based compilers. Serves as the core compilation layer for Vite's dev dependency pre-bundling and tsup.
 
-### 7. [SWC](https://github.com/swc-project/swc) [![GitHub stars](https://img.shields.io/github/stars/swc-project/swc?style=social&color=white)](https://github.com/swc-project/swc/stargazers)
+### 7. [SWC](https://github.com/swc-project/swc) [![GitHub_Stars](https://img.shields.io/github/stars/swc-project/swc?style=social&color=white)](https://github.com/swc-project/swc/stargazers)
 * **Category**: High-Performance Rust Compiler & Transpiler
 * **Tech**: Rust
 * **Summary**: Rust-based extensible platform for compilation and bundling. Serves as a high-speed drop-in replacement for Babel and powers Next.js, Parcel, and Deno's native compiler pipelines.
 
-### 8. [Turbopack](https://github.com/vercel/turbo) [![GitHub stars](https://img.shields.io/github/stars/vercel/turbo?style=social&color=white)](https://github.com/vercel/turbo/stargazers)
+### 8. [Turbopack](https://github.com/vercel/turbo) [![GitHub_Stars](https://img.shields.io/github/stars/vercel/turbo?style=social&color=white)](https://github.com/vercel/turbo/stargazers)
 * **Category**: Incremental Rust Bundler & Turbo Engine
 * **Tech**: Rust
 * **Summary**: Vercel's high-performance incremental bundler engineered with function-level caching. The standard default bundler powering Next.js applications for both local development and production.
 
-### 9. [Rollup](https://github.com/rollup/rollup) [![GitHub stars](https://img.shields.io/github/stars/rollup/rollup?style=social&color=white)](https://github.com/rollup/rollup/stargazers)
+### 9. [Rollup](https://github.com/rollup/rollup) [![GitHub_Stars](https://img.shields.io/github/stars/rollup/rollup?style=social&color=white)](https://github.com/rollup/rollup/stargazers)
 * **Category**: Next-Gen ES Module Bundler
 * **Tech**: JavaScript / WebAssembly
 * **Summary**: The industry standard for packaging JavaScript libraries. Renowned for generating the cleanest, most efficient tree-shaken ESM and CommonJS bundles.
 
-### 10. [Oxc](https://github.com/oxc-project/oxc) [![GitHub stars](https://img.shields.io/github/stars/oxc-project/oxc?style=social&color=white)](https://github.com/oxc-project/oxc/stargazers)
+### 10. [Oxc](https://github.com/oxc-project/oxc) [![GitHub_Stars](https://img.shields.io/github/stars/oxc-project/oxc?style=social&color=white)](https://github.com/oxc-project/oxc/stargazers)
 * **Category**: The JavaScript Oxidation Compiler Suite
 * **Tech**: Rust
 * **Summary**: A collection of high-performance tools written in Rust, including an ultra-fast parser, AST transformer, linter, minifier, and type-stripping compiler built to power modern web tooling.
 
-### 11. [Rolldown](https://github.com/rolldown/rolldown) [![GitHub stars](https://img.shields.io/github/stars/rolldown/rolldown?style=social&color=white)](https://github.com/rolldown/rolldown/stargazers)
+### 11. [Rolldown](https://github.com/rolldown/rolldown) [![GitHub_Stars](https://img.shields.io/github/stars/rolldown/rolldown?style=social&color=white)](https://github.com/rolldown/rolldown/stargazers)
 * **Category**: Rust-Based Rollup Replacement
 * **Tech**: Rust / Oxc
 * **Summary**: A Rust port of Rollup with Rollup-compatible APIs and plugins, designed to serve as the unified dev and build engine inside upcoming Vite releases.
 
-### 12. [Rspack](https://github.com/web-infra-dev/rspack) [![GitHub stars](https://img.shields.io/github/stars/web-infra-dev/rspack?style=social&color=white)](https://github.com/web-infra-dev/rspack/stargazers)
+### 12. [Rspack](https://github.com/web-infra-dev/rspack) [![GitHub_Stars](https://img.shields.io/github/stars/web-infra-dev/rspack?style=social&color=white)](https://github.com/web-infra-dev/rspack/stargazers)
 * **Category**: High-Performance Webpack-Compatible Bundler
 * **Tech**: Rust
 * **Summary**: Rust-based bundler offering seamless drop-in compatibility with the Webpack ecosystem (loaders, plugins) while delivering 5x to 10x faster build speeds.
 
-### 13. [tsx](https://github.com/privatenumber/tsx) [![GitHub stars](https://img.shields.io/github/stars/privatenumber/tsx?style=social&color=white)](https://github.com/privatenumber/tsx/stargazers)
+### 13. [tsx](https://github.com/privatenumber/tsx) [![GitHub_Stars](https://img.shields.io/github/stars/privatenumber/tsx?style=social&color=white)](https://github.com/privatenumber/tsx/stargazers)
 * **Category**: TypeScript Execution Runtime
 * **Tech**: TypeScript / esbuild
 * **Summary**: The fastest zero-config TypeScript and ESM runtime CLI for Node.js, powered transparently by esbuild for instantaneous script execution.
 
-### 14. [tsup](https://github.com/egoist/tsup) [![GitHub stars](https://img.shields.io/github/stars/egoist/tsup?style=social&color=white)](https://github.com/egoist/tsup/stargazers)
+### 14. [tsup](https://github.com/egoist/tsup) [![GitHub_Stars](https://img.shields.io/github/stars/egoist/tsup?style=social&color=white)](https://github.com/egoist/tsup/stargazers)
 * **Category**: Zero-Config TypeScript Library Bundler
 * **Tech**: TypeScript / esbuild
 * **Summary**: Bundle TypeScript libraries with zero configuration. Emits ESM, CJS, and `.d.ts` declaration files automatically at esbuild-grade speeds.
 
-### 15. [Terser](https://github.com/terser/terser) [![GitHub stars](https://img.shields.io/github/stars/terser/terser?style=social&color=white)](https://github.com/terser/terser/stargazers)
+### 15. [Terser](https://github.com/terser/terser) [![GitHub_Stars](https://img.shields.io/github/stars/terser/terser?style=social&color=white)](https://github.com/terser/terser/stargazers)
 * **Category**: JavaScript Parser, Mangler & Minifier
 * **Tech**: JavaScript
 * **Summary**: The classic production minification toolkit for ES6+. Performs dead-code elimination, variable mangling, and AST compression across modern pipelines.
 
-### 16. [Closure Compiler](https://github.com/google/closure-compiler) [![GitHub stars](https://img.shields.io/github/stars/google/closure-compiler?style=social&color=white)](https://github.com/google/closure-compiler/stargazers)
+### 16. [Closure Compiler](https://github.com/google/closure-compiler) [![GitHub_Stars](https://img.shields.io/github/stars/google/closure-compiler?style=social&color=white)](https://github.com/google/closure-compiler/stargazers)
 * **Category**: Whole-Program Optimizing Compiler
 * **Tech**: Java
 * **Summary**: Google's whole-program optimizing compiler that parses JavaScript, analyzes it, removes dead code, and rewrites code for maximum minification and execution efficiency.
 
-### 17. [Sucrase](https://github.com/alangpierce/sucrase) [![GitHub stars](https://img.shields.io/github/stars/alangpierce/sucrase?style=social&color=white)](https://github.com/alangpierce/sucrase/stargazers)
+### 17. [Sucrase](https://github.com/alangpierce/sucrase) [![GitHub_Stars](https://img.shields.io/github/stars/alangpierce/sucrase?style=social&color=white)](https://github.com/alangpierce/sucrase/stargazers)
 * **Category**: Lightweight Modern JavaScript Transpiler
 * **Tech**: TypeScript / JavaScript
 * **Summary**: Super-fast transpiler targeting modern runtimes by stripping TypeScript and JSX syntax without performing heavy legacy transformations or type verification.
@@ -188,7 +188,7 @@ Contributions are warmly encouraged! Follow these steps:
 
 1. 🍴 **Fork** the repository.
 2. 🌿 Create a feature branch: `git checkout -b feature/new-compiler`.
-3. 📝 Add your entry ensuring factual data, repo star badges (`style=social&color=white`), and official documentation links.
+3. 📝 Add your entry ensuring factual data, repo Stars_Badges (`style=social&color=white`), and official documentation links.
 4. 🚀 Open a **Pull Request** describing your additions.
 
 ---
