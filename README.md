@@ -30,21 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global web development and Jamstack application deployment market is estimated at **$1.4B to $3.8B** (scaling toward **$80B+** across the broader web application development and cloud hosting industry). The sector is **moderately concentrated at the core deployment infrastructure layer** (dominated by an oligopoly led by Cloudflare, Vercel, and Netlify), while remaining **highly fragmented across compilation toolchains, framework runtimes, and headless CMS integrations**.
 
 
 
 ## SaaS/Hosted Platforms
 
+> *Note: While low-level JavaScript compilers (like Babel, SWC, esbuild, and tsc) run locally or inside CI/CD environments as open-source libraries, hosted cloud build & edge deployment platforms provide managed pipelines that run, transpile, bundle, and serve compiled JavaScript at scale.*
 
-
-- **No dedicated SaaS platforms exist for JavaScript compilation.** These tools run locally or in CI/CD pipelines—their purpose is to transform code during development and build, not to provide hosted services. Hosted build platforms (Vercel, Netlify) execute these open-source tools but are not compilers themselves.
+| Product | Valuation / Revenue | Starting Price | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cloudflare Pages](https://pages.cloudflare.com/)** | **$105B – $115B** Market Cap (~$2.51B TTM Revenue) | **$5/month** (Workers Paid plan for higher build/SSR limits) | Free forever: 500 builds/month, 1 concurrent build, unlimited bandwidth, 100 projects, 100k requests/day for Pages Functions (10ms CPU time/request). | Edge-first deployment & hosting engine that executes build commands and serves compiled assets via Cloudflare's global CDN. |
+| **[Vercel](https://vercel.com/)** | **$9.3B** Valuation (~$200M ARR) | **$20/user/month** (Pro plan) | Free forever (Hobby Plan): 100 GB fast data transfer, 100 deployments/day, 1 concurrent build, 45 min build time, 1M edge function invocations/month. Non-commercial use. | Creator of Next.js and Turbopack; provides managed deployment and edge infrastructure natively executing modern JS/TS build pipelines. |
+| **[Netlify](https://www.netlify.com/)** | **$2.0B** Valuation (~$45M ARR) | **$9/month** (Personal plan; Pro starts at $20/month) | Free forever (Starter): 300 unified credits/month (~15 GB bandwidth / deployment minutes; hard cap with site pausing), 1-day log/analytics retention. Commercial use permitted. | Cloud platform for automated Git-integrated builds, serverless edge functions, and compiled front-end asset delivery. |
+| **[Render](https://render.com/)** | **$1.5B** Valuation (~$23.4M ARR) | **$25/month** (Pro workspace flat fee) | Free forever (Hobby Plan): 750 free instance hours/month, 512 MB RAM / 0.1 CPU, 5 GB bandwidth/month; web services spin down after 15 min inactivity; free DBs expire after 30 days. | Unified cloud platform hosting static sites, Node.js runtimes, and full-stack web applications with automated GitHub builds. |
 
 
 
